@@ -1,0 +1,28 @@
+[submodule "plugins/vim-fugitive"]
+	path = plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+	branch = master
+[submodule "plugins/nerdtree"]
+	path = plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+	branch = master
+[submodule "plugins/syntastic"]
+	path = plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+	branch = master
+[submodule "plugins/ctrlp.vim"]
+	path = plugins/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+	branch = master
+[submodule "plugins/vim-colors-solarized"]
+	path = plugins/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+	branch = master
+[submodule "plugins/vim-airline"]
+	path = plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+	branch = master
+[submodule "ack.vim"]
+	path = ack.vim
+	url = https://github.com/mileszs/ack.vim
+	branch = master

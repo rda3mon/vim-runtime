@@ -4,12 +4,6 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
-" Uncomment the following to have Vim load indentation rules and plugins
-" according to the detected filetype.
-if has("autocmd")
-  filetype plugin indent on
-endif
-
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -20,6 +14,15 @@ let g:mapleader = ","
 
 " Not Vi-compatible
 set nocp
+
+""""""""""""""""""""""""""""""
+" => Indentation rules
+""""""""""""""""""""""""""""""
+" Uncomment the following to have Vim load indentation rules and plugins
+" according to the detected filetype.
+if has("autocmd")
+  filetype plugin indent on
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -97,7 +100,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme murphy
+    colorscheme solarized
 catch
 endtry
 
