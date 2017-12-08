@@ -22,7 +22,7 @@
 	path = plugins/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 	branch = master
-[submodule "ack.vim"]
-	path = ack.vim
+[submodule "plugins/ack.vim"]
+	path = plugins/ack.vim
 	url = https://github.com/mileszs/ack.vim
 	branch = master
