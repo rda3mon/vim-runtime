@@ -9,3 +9,7 @@
 2) Install vimrc
 
 `cd ~/.vim_runtime && bash install.sh`
+
+### Update with Plugins
+
+`cd ~/.vim_runtime && git pull --recurse-submodules origin master && bash install.sh`
