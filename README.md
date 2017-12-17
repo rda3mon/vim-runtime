@@ -4,7 +4,7 @@
 
 1) clone the repositry with its plugins
 
-`git clone --recursive git@github.com:rda3mon/vimrc.git ~/.vim_runtime`
+`git clone --recursive https://github.com/rda3mon/vimrc.git ~/.vim_runtime`
 
 2) Install vimrc
 
