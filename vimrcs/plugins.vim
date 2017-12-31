@@ -18,3 +18,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " NERDtree start at launch time
 " autocmd vimenter * NERDTree
+
+""""""""""""""""""""""""""""""
+" Airline config
+""""""""""""""""""""""""""""""
+let g:airline#extensions#tabline#enabled = 1

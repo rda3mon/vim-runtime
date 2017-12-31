@@ -26,3 +26,7 @@
 	path = plugins/ack.vim
 	url = https://github.com/mileszs/ack.vim
 	branch = master
+[submodule "plugins/nerdtree-git-plugin"]
+	path = plugins/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+	branch = master
