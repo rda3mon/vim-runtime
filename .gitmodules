@@ -22,10 +22,6 @@
 	path = plugins/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 	branch = master
-[submodule "plugins/ack.vim"]
-	path = plugins/ack.vim
-	url = https://github.com/mileszs/ack.vim
-	branch = master
 [submodule "plugins/nerdtree-git-plugin"]
 	path = plugins/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git

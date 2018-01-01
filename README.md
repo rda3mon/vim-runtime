@@ -13,3 +13,25 @@
 ### Update with Plugins
 
 `cd ~/.vim_runtime && git pull --recurse-submodules origin master && bash install.sh`
+
+# Plugins
+
+### ctrlp -- Finder for vim
+
+### nerdtree -- File system explorer for vim
+
+### nerdtree-git-plugin -- Git status flags for nerdtree explorer
+
+### syntastic -- Syntax checking for vim
+
+### vim-airline -- Status line for vim
+
+### vim-colors-solarized -- Color scheme for vim
+
+### vim-fugitive -- Git wrapper for vim
+
+### vim-gitgutter -- Git diff for vim
+
+### vim-multiple-cursors -- Multiline operations for vim
+
+### vim-surround -- Surround pair operations for vim
