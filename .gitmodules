@@ -30,3 +30,15 @@
 	path = plugins/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 	branch = master
+[submodule "plugins/vim-gitgutter"]
+	path = plugins/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+	branch = master
+[submodule "plugins/vim-surround"]
+	path = plugins/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+	branch = master
+[submodule "plugins/YouCompleteMe"]
+	path = plugins/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+	branch = master
