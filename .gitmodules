@@ -34,10 +34,6 @@
 	path = plugins/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 	branch = master
-[submodule "plugins/YouCompleteMe"]
-	path = plugins/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
-	branch = master
 [submodule "plugins/vim-multiple-cursors"]
 	path = plugins/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
