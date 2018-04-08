@@ -23,3 +23,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Airline config
 """"""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
+
+""""""""""""""""""""""""""""""
+" Vim Go
+""""""""""""""""""""""""""""""
+"TODO:
+"GoInstallBinaries
