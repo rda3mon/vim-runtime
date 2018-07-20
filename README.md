@@ -12,7 +12,7 @@
 
 ### Update with Plugins
 
-`cd ~/.vim_runtime && git pull --recurse-submodules origin master && bash install.sh`
+`cd ~/.vim_runtime && git submodule update --init --recursive && git pull --recurse-submodules origin master && bash install.sh`
 
 # Plugins
 
