@@ -41,6 +41,6 @@
 [submodule "plugins/vim-go"]
 	path = plugins/vim-go
 	url = https://github.com/fatih/vim-go
-[submodule "python-mode"]
-	path = python-mode
+[submodule "plugins/python-mode"]
+	path = plugins/python-mode
 	url = https://github.com/python-mode/python-mode
