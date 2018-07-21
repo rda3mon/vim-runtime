@@ -29,3 +29,10 @@ let g:airline#extensions#tabline#enabled = 1
 """"""""""""""""""""""""""""""
 "TODO:
 "GoInstallBinaries
+
+
+""""""""""""""""""""""""""""""
+" Python mode
+""""""""""""""""""""""""""""""
+let g:pymode_options_max_line_length=500
+let g:pymode_lint_ignore="E722"
