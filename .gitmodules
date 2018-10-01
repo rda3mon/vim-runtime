@@ -6,10 +6,6 @@
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 	branch = master
-[submodule "plugins/syntastic"]
-	path = plugins/syntastic
-	url = https://github.com/vim-syntastic/syntastic
-	branch = master
 [submodule "plugins/ctrlp.vim"]
 	path = plugins/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim

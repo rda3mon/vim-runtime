@@ -1,3 +1,9 @@
 1) Move to Vundle from Pathogen
 2) Setup syntastic plugin
 3) Create shortcuts for all plugins
+4) History between sessions
+5) Ctas
+6) Autocomplete auto popup
+7) Remote vim configuration over ssh
+8) Function folding
+9) undo arbitrary modification

@@ -162,3 +162,10 @@ endif
 """"""""""""""""""""""""""""""
 " Always show the status line
 set laststatus=2
+
+
+""""""""""""""""""""""""""""""
+" => Status line
+""""""""""""""""""""""""""""""
+" Auto complete options -- longest match, open menu with one match as well
+set completeopt=longest,menuone
