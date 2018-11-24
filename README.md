@@ -4,15 +4,15 @@
 
 1) clone the repositry with its plugins
 
-`git clone --recursive https://github.com/rda3mon/vimrc.git ~/.vim_runtime`
+`git clone --recursive https://github.com/rda3mon/vimrc.git ~/.vim-runtime`
 
 2) Install vimrc
 
-`cd ~/.vim_runtime && bash install.sh`
+`cd ~/.vim-runtime && bash install.sh`
 
 ### Update with Plugins
 
-`cd ~/.vim_runtime && git submodule update --init --recursive && git pull --recurse-submodules origin master && bash install.sh`
+`cd ~/.vim-runtime && git submodule update --init --recursive && git pull --recurse-submodules origin master && bash install.sh`
 
 # Plugins
 
