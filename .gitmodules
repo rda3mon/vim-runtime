@@ -10,30 +10,11 @@
 	path = plugins/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 	branch = master
-[submodule "plugins/vim-colors-solarized"]
-	path = plugins/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
-	branch = master
 [submodule "plugins/vim-airline"]
 	path = plugins/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-	branch = master
-[submodule "plugins/nerdtree-git-plugin"]
-	path = plugins/nerdtree-git-plugin
-	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
-	branch = master
-[submodule "plugins/vim-gitgutter"]
-	path = plugins/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
 	branch = master
 [submodule "plugins/vim-surround"]
 	path = plugins/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 	branch = master
-[submodule "plugins/vim-multiple-cursors"]
-	path = plugins/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
-	branch = master
-[submodule "plugins/vim-go"]
-	path = plugins/vim-go
-	url = https://github.com/fatih/vim-go
