@@ -23,6 +23,8 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 " wildcard exclude files while searching
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*~,*.class
 
+nnoremap <leader>. :CtrlPTag<cr>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Fugitive Shortcuts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -36,9 +38,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*~,*.class
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Surround Shortcuts
+" Tagbar Shortcuts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Multiple Cursors Shortcuts
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F8> :TagbarToggle<CR>

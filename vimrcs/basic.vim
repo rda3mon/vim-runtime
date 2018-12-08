@@ -98,7 +98,7 @@ endif
 set t_Co=256
 
 try
-    colorscheme desert
+    colorscheme default
 catch
 endtry
 
