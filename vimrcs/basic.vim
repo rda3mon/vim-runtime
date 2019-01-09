@@ -161,9 +161,24 @@ endif
 " Always show the status line
 set laststatus=2
 
+""""""""""""""""""""""""""""""
+" => mouse support
+""""""""""""""""""""""""""""""
+set mouse=a
+
 
 """"""""""""""""""""""""""""""
 " => Status line
 """"""""""""""""""""""""""""""
 " Auto complete options -- longest match, open menu with one match as well
 set completeopt=longest,menuone
+
+
+""""""""""""""""""""""""""""""
+" => Folding line
+""""""""""""""""""""""""""""""
+" Default to indent. and sets to manual when editing the file. 
+augroup vimrc
+  au BufReadPre * setlocal foldmethod=indent
+  au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
+augroup END

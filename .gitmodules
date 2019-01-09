@@ -22,9 +22,6 @@
 	path = plugins/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 	branch = master
-[submodule "plugins/YouCompleteME"]
-	path = plugins/YouCompleteME
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "plugins/gitgutter"]
 	path = plugins/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
